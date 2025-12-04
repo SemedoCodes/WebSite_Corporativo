@@ -12,5 +12,16 @@
     display: block;
 }
 #navbar-header ul li{
+    color: rgb(81, 79, 79);
+    padding: 10px 20px;
+    list-style: none;
+}
+
+#navbar-header ul li a{
+    text-decoration: none;
     
+}
+
+#navbar-header ul li a :hover{
+    color: rgb(52, 89, 198);
 }
