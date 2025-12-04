@@ -1,0 +1,16 @@
+*{
+    font-style: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+#navbar-header{
+    border-bottom: 1px solid rgb(151, 147, 147);
+    height: 50px;
+}
+
+#navbar-header ul{
+    display: block;
+}
+#navbar-header ul li{
+    
+}
