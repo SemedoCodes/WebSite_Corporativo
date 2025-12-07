@@ -1,27 +1,43 @@
-*{
-    font-style: "Montserrat", sans-serif;
+* {
+    font-family: "Montserrat", sans-serif;
     margin: 0;
 }
 
-#navbar-header{
+#navbar-header {
     border-bottom: 1px solid rgb(151, 147, 147);
     height: 50px;
 }
 
-#navbar-header ul{
-    display: block;
+#navbar-header ul {
+    display: inline;
 }
-#navbar-header ul li{
+
+#navbar-header ul li {
     color: rgb(81, 79, 79);
     padding: 10px 20px;
     list-style: none;
+    float: left;
 }
 
-#navbar-header ul li a{
+#navbar-header ul li a {
     text-decoration: none;
+    color: rgb(81, 79, 79);
+    float: left;
     
 }
 
-#navbar-header ul li a :hover{
+#navbar-header ul li a:hover {
     color: rgb(52, 89, 198);
+}
+
+#li-orcamento a{
+    color: white;
+    background-color: rgb(36, 110, 223);
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+#li-orcamento li a:hover{
+    color: white ;
 }
