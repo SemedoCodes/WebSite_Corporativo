@@ -1,43 +1,94 @@
+/* RESET BÁSICO */
 * {
     font-family: "Montserrat", sans-serif;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* NAVBAR */
 #navbar-header {
-    border-bottom: 1px solid rgb(151, 147, 147);
-    height: 50px;
+    
+    padding: 0 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;      
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0,0.06);
 }
 
+/* LOGO + TEXTO */
+#logo-nav {
+    display: flex;
+    align-items: center;
+}
+
+#logo-nav .logo-img {
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+#logo-nav h2 {
+    color: rgb(54, 120, 182);
+}
+
+/* LISTA DE LINKS */
 #navbar-header ul {
-    display: inline;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
 }
 
 #navbar-header ul li {
-    color: rgb(81, 79, 79);
-    padding: 10px 20px;
-    list-style: none;
-    float: left;
+    display: flex;
+    align-items: center;
 }
 
+/* LINKS NORMAIS */
 #navbar-header ul li a {
     text-decoration: none;
     color: rgb(81, 79, 79);
-    float: left;
-    
+    padding: 10px 20px;
+    display: block;
 }
 
 #navbar-header ul li a:hover {
     color: rgb(52, 89, 198);
 }
 
-#li-orcamento a{
-    color: white;
+/* BOTÃO ORÇAMENTO */
+#li-orcamento a {
+    color: white !important;
     background-color: rgb(36, 110, 223);
-    padding: 10px;
     border-radius: 4px;
-    
+    padding: 10px 20px;
 }
 
-#li-orcamento li a:hover{
-    color: white ;
+#li-orcamento a:hover {
+    background-color: rgb(0, 174, 255);
+    transition: 0.3s;
+    color: white;
+}
+
+/* FOOTER */
+#footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: rgb(44, 134, 212);
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+.title-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
